@@ -1,5 +1,7 @@
 import Card from 'react-bootstrap/Card';
 import ListGroup from 'react-bootstrap/ListGroup';
+
+// la carte des players et on a passe les data par props
 const PlayerCard=({el})=>{
     return(
         <Card style={{ width: '18rem' }}>
@@ -23,4 +25,7 @@ const PlayerCard=({el})=>{
     )
 }
 
+PlayerCard.defaultProps = {
+    el : {name:'Mohamed',team:'Testour',nation:'Testour',num:'7',age:'30',url:'https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcRnXB0Z-Z_IfdLilDUsP2H3m_Ce68gZS1uU3Xdr-dlCYUxz6dVVGVq47uXLr8BFdHg3du51HppF15uCFis'}
+}
 export default PlayerCard

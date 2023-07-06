@@ -8,3 +8,6 @@ const playerss=[
 ]
 
 export default playerss;
+
+
+//declaration d'un tableau d'objet

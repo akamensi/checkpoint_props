@@ -1,7 +1,7 @@
 import PlayerCard from "./PlayerCard";
 import playerss from "./playerss";
 
-
+//map le tableau d'objet pour cree une carte a chaque player
 
 const Playerlist=({el})=>{
     return(
